@@ -1,0 +1,12 @@
+.characters__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.characters__card {
+  margin: 10px;
+}
