@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/characters.css';
 
-export const CharacterCard = ({name, image}) => {
+export const CharacterCard = ({name, image, addToFavorites}) => {
     
     return (
         <div className='characters__card'>

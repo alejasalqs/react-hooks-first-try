@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext';
 import './styles/header.css';
 
 
 // Este header se encarga del estado de la aplicación entre DarkMode y LightMode
 export const Header = ({darkMode, setDarkMode}) => {
 
+    const color = useContext(ThemeContext);
 
     const handleClick = () => {
         // Cada vez que se de un click va a cambiar el estado
